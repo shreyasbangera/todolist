@@ -22,7 +22,6 @@ function App() {
 
   const handleClose = (id) => {
     const delTodo = todos.filter((t) => t.id !== id);
-    console.log(delTodo);
     setTodos(delTodo);
   };
 
